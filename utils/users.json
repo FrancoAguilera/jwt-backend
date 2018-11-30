@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "5c0161dd4f98e4f887feebcc",
+    "index": 0,
+    "guid": "e18bc639-1b74-4ff6-98db-d3b8cff57a78",
+    "isActive": false,
+    "name": "Susanna Sanders",
+    "gender": "female",
+    "email": "susannasanders@fitcore.com",
+    "address": "629 Newel Street, Jeff, Minnesota, 1826",
+    "password": "abc123",
+    "registered": "2017-03-26T11:49:47 +03:00"
+  },
+  {
+    "_id": "5c0161dddf2df3a7644f01d7",
+    "index": 1,
+    "guid": "fdc23763-419f-4522-9610-e12ae8a7d62d",
+    "isActive": false,
+    "name": "Lee Castaneda",
+    "gender": "female",
+    "email": "leecastaneda@fitcore.com",
+    "address": "482 Dunne Court, Craig, Kentucky, 2839",
+    "password": "abc123",
+    "registered": "2016-11-03T08:19:44 +03:00"
+  },
+  {
+    "_id": "5c0161dd609ca62264cc70c0",
+    "index": 2,
+    "guid": "b5b6ee8a-42b7-4022-9aee-d0ccea86d5c0",
+    "isActive": false,
+    "name": "Hampton Barrera",
+    "gender": "male",
+    "email": "hamptonbarrera@fitcore.com",
+    "address": "166 Provost Street, Crumpler, New Mexico, 7614",
+    "password": "abc123",
+    "registered": "2018-05-28T04:32:14 +03:00"
+  },
+  {
+    "_id": "5c0161ddd252e0f2a59cfc19",
+    "index": 3,
+    "guid": "61f85790-264f-42d7-8ff3-0c1d805903e2",
+    "isActive": true,
+    "name": "Fletcher Watkins",
+    "gender": "male",
+    "email": "fletcherwatkins@fitcore.com",
+    "address": "544 Columbia Street, Guthrie, Connecticut, 1186",
+    "password": "abc123",
+    "registered": "2015-06-08T10:55:20 +03:00"
+  },
+  {
+    "_id": "5c0161dd7273ad8a3a20e3ad",
+    "index": 4,
+    "guid": "166bc6f6-7ac4-494b-ab37-9e9d28834d4f",
+    "isActive": true,
+    "name": "Christensen Cote",
+    "gender": "male",
+    "email": "christensencote@fitcore.com",
+    "address": "586 Winthrop Street, Kieler, Texas, 6645",
+    "password": "abc123",
+    "registered": "2017-10-15T06:51:01 +03:00"
+  },
+  {
+    "_id": "5c0161dd7273ad8a2a59cfc19",
+    "index": 5,
+    "guid": "166bc6f6-7ac4-494b-ab37-9e9d22a59cf9",
+    "isActive": true,
+    "name": "Franco Aguilera",
+    "gender": "male",
+    "email": "flaalf@gmail.com",
+    "address": "calle falsa 123",
+    "password": "xyz789",
+    "registered": "2014-08-12T11:23:13 +03:00"
+  }
+]
