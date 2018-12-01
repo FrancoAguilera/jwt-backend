@@ -4,7 +4,7 @@ const app = express();
 const bodyParser = require('body-parser');
 
 const verifyToken = (req, res, next) => {
-  if ( req.path == '/' || req.path == '/login') return next();
+  if ( req.path === '/' || req.path === '/login') return next();
   
   // Authorization: Bearer <access_token>
   const bearerHeader = req.headers['authorization'];
