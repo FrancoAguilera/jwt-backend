@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "3b12175e-0220-430e-baed-13681d363d85",
+		"name": "jwt-backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "base url",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"flaalf@gmail.com\",\n\t\"password\": \"xyz789\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "access posts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjVjMDE2MWRkNzI3M2FkOGEyYTU5Y2ZjMTkiLCJpbmRleCI6NSwiZ3VpZCI6IjE2NmJjNmY2LTdhYzQtNDk0Yi1hYjM3LTllOWQyMmE1OWNmOSIsImlzQWN0aXZlIjp0cnVlLCJuYW1lIjoiRnJhbmNvIEFndWlsZXJhIiwiZ2VuZGVyIjoibWFsZSIsImVtYWlsIjoiZmxhYWxmQGdtYWlsLmNvbSIsImFkZHJlc3MiOiJjYWxsZSBmYWxzYSAxMjMiLCJyZWdpc3RlcmVkIjoiMjAxNC0wOC0xMlQxMToyMzoxMyArMDM6MDAifSwiaWF0IjoxNTQzNjAzNjk5LCJleHAiOjE1NDM2MDcyOTl9.0GCyqLjYkMRtTuIxY8_Vb3E7yW1E4NKFXP6PZZiVszQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjVjMDE2MWRkNzI3M2FkOGEyYTU5Y2ZjMTkiLCJpbmRleCI6NSwiZ3VpZCI6IjE2NmJjNmY2LTdhYzQtNDk0Yi1hYjM3LTllOWQyMmE1OWNmOSIsImlzQWN0aXZlIjp0cnVlLCJuYW1lIjoiRnJhbmNvIEFndWlsZXJhIiwiZ2VuZGVyIjoibWFsZSIsImVtYWlsIjoiZmxhYWxmQGdtYWlsLmNvbSIsImFkZHJlc3MiOiJjYWxsZSBmYWxzYSAxMjMiLCJyZWdpc3RlcmVkIjoiMjAxNC0wOC0xMlQxMToyMzoxMyArMDM6MDAifSwiaWF0IjoxNTQzNjAwNjA5LCJleHAiOjE1NDM2MDQyMDl9.3bdAuinLeUDrgNvGxUrL1F4W7e4TUipE3nAhoJP-X2k",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"new post title\",\n\t\"body\": \"excepteur consequat eiusmod exercitation sint nisi velit nostrud deserunt dolore ad amet ullamco ipsum excepteur id cillum laboris consequat ut ipsum minim commodo esse sint enim non elit et veniam laborum quis magna ullamco elit officia consectetur mollit proident sint laboris enim sit laborum cillum sit tempor nisi est voluptate commodo id est esse laboris amet sit mollit culpa deserunt duis in non est et ut qui adipisicing incididunt et non esse cillum laboris ut et minim in incididunt do labore aliqua consectetur irure velit tempor ut ex dolor laboris non eiusmod eiusmod velit sunt velit incididunt cupidatat ullamco eiusmod officia culpa ea officia elit mollit consectetur aute incididunt dolore cupidatat ipsum laboris adipisicing ex laboris incididunt et in nisi\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/posts/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete post",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": \"12\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/posts/delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login url",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"flaalf@gmail.com\",\n\t\"password\": \"xyz789\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
